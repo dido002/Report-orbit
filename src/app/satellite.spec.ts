@@ -1,4 +1,3 @@
-
 import { Satellite } from './satellite';
 
 describe('Satellite', () => {

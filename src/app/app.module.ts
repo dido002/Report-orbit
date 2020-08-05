@@ -10,8 +10,6 @@ import { OrbitListComponent } from './Orbit-List/orbit-list.component';
     AppComponent,
     OrbitCountComponent,
     OrbitListComponent,
-    
-    
   ],
   imports: [
     BrowserModule
