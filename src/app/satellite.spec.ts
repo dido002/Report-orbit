@@ -3,6 +3,6 @@ import { Satellite } from './satellite';
 
 describe('Satellite', () => {
   it('should create an instance', () => {
-    expect(newSatellite()).toBeTruthy();
+    expect(new Satellite()).toBeTruthy();
   });
 });
