@@ -9,7 +9,8 @@ import { Satellite } from '../satellite';
 })
 export class OrbitCountComponent implements OnInit {
   @Input() satellites: Satellite[];
-  categories: string[] = ['space Debris', 'Communication', 'probe', 'Positioning', 'Space Station', 'Telescope'];
+  categories: string[] = ['space Debris', 'Communication', 'Probe', 'Positioning', 'Space Station', 'Telescope'];
+  
   constructor() { }
 
   ngOnInit() {
