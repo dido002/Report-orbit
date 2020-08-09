@@ -1,7 +1,6 @@
 <app-orbit-list [satellites]="displayList"></app-orbit-list>
-<div class="typeCounts"></div>
 <div class="search-form">
     <input #searchTerm type = "text" (keyup.enter) = "search(searchTerm.value);" placeholder="Enter Name"/>
     <button (click) = "search(searchTerm.value);"> Search </button>
     <app-orbit-count></app-orbit-count>
-    </div>
+   </div>
