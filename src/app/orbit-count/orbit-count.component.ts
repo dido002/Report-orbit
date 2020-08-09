@@ -17,16 +17,13 @@ export class OrbitCountComponent implements OnInit {
   }
 
   typeCount(category: string): number {
-    if (category === 'Total') {
-      return this.satellites.length;
-    } else {
-      let count: number = 0;
+    
+     let count: number = 0;
       for (let i in this.satellites) {
-        if (this.satellites[i].type === category) {
+        this.satellites[i].type === category;
           count++;
         }
-      }
+      
       return count;
     }
   }
-}
