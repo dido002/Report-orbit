@@ -17,8 +17,8 @@ table {
 }
 
 .header-row {
-    background: #94c93d;
-    color: #07703c
+    background: red;
+    color: black
 }
 
 th, td {
@@ -32,7 +32,7 @@ th, td {
 
 button {
     margin-left: 10px;
-    color:#07703c;
+    color:red;
     background-color: #94c93d;
     border-radius: 4px;
     padding: 2px 5px;
